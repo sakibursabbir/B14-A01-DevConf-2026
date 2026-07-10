@@ -482,38 +482,103 @@ section {
   font-size: 18px;
 }
 
-.partners-cta .button{
-    position: relative;
-    overflow: hidden;
-    padding: 16px 42px;
-    font-size: 17px;
-    transition:
-        transform .35s ease,
-        box-shadow .35s ease;
+.partners-cta .button {
+  position: relative;
+  overflow: hidden;
+  padding: 16px 42px;
+  font-size: 17px;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
-.partners-cta .button::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -120%;
-    width: 40%;
-    height: 100%;
-    background: rgba(255,255,255,.35);
-    transform: skewX(-25deg);
-    transition: left .7s ease;
+.partners-cta .button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 40%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  transform: skewX(-25deg);
+  transition: left 0.7s ease;
 }
 
-.partners-cta .button:hover::before{
-    left: 130%;
+.partners-cta .button:hover::before {
+  left: 130%;
 }
 
-.partners-cta .button:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(37,99,235,.35);
+.partners-cta .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
 }
 
-.partners-cta .button:active{
-    transform: translateY(0);
+.partners-cta .button:active {
+  transform: translateY(0);
 }
 
+/* Footer Section css */
+.footer {
+  padding: 70px 8% 35px;
+  background: #0d1b2a;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.footer-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-logo-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.footer-logo-year {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-icon {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-bottom {
+  padding-top: 28px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
