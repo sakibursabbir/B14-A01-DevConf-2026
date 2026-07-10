@@ -1,0 +1,92 @@
+/* Font Family Arimo */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Font Family Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common Section Spacing */
+section {
+  padding: 80px 8%;
+}
+
+/* Navbar css */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    font-family: "Arimo", sans-serif;
+}
+
+.navbar-logo .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+}
+
+.navbar-logo .logo img{
+    /* padding: 6px 6px; */
+    /* margin-right:8px; */
+    display: block;
+}
+
+.logo-text{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: #0D1B2A;
+}
+
+.logo-text .logo-year{
+    display:block
+}
+
+
+.navbar-menu .nav-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-list .nav-item .nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+
+.navbar-action{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-action .btn{
+    padding: 12px 41px;
+    background-color: #1D4ED8;
+    color: #FFFFFF; 
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
