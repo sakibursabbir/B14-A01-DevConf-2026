@@ -199,3 +199,114 @@ section {
     font-weight: 400;
     color: #575757;
 }
+
+/* Secure Spot Section css */
+.pricing .pricing-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+}
+
+.pricing-header{
+    margin-bottom: 48px;
+}
+
+.pricing-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+
+.pricing-description{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  padding-top: 12px;
+}
+
+.pricing-card{
+    background-color: #F8F9FB;
+    border:1px solid #ebe5e6;
+    border-radius:12px;
+    padding:32px;
+}
+
+.plan-name{
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888888;
+}
+
+.plan-price{
+  font-size: 44px;
+  font-weight: 700;
+  color: #0D1B2A;
+  padding: 8px 0 4px 0;
+}
+
+.plan-duration{
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: lowercase;
+  color: #888888;
+}
+
+.plan-divider{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.pricing-card-active{
+    background:#0D1B2A;
+    color:#fff;
+}
+
+.feature-list{
+    display:grid;
+    gap:10px;
+    padding-left: 18px;
+}
+
+.pricing-card .btn{
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.btn-outline{
+  border: 1px solid #2563EB;
+  color: #2563EB;
+  background-color: transparent;
+}
+
+.plan-name-active{
+  color: #93C5FD;
+}
+.plan-price-active{
+  color: #FFFFFF;
+}
+
+.plan-duration-active{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.plan-divider-active{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-outline-dark{
+  border: 1px solid #0D1B2A;
+  color: #0D1B2A;
+  background-color: transparent;
+}
+
+
+
+
