@@ -146,3 +146,56 @@ section {
   padding: 25px 62px;
   font-size: 24px;
 }
+
+
+/* Meet Speakers Section CSS */
+.section-header{
+    margin-bottom: 56px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    color: #000102;
+}
+
+.speakers .speakers-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.speakers-container .speaker-card {
+  border:1px solid #E5E7EB; 
+  border-radius: 12px;
+}
+
+.speaker-image{
+    display: block;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.speaker-info{
+    padding: 25px 24px;
+}
+
+.speaker-info .speaker-category{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+}
+
+.speaker-info .speaker-name{
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1B2A;
+}
+
+.speaker-info .speaker-role{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+}
