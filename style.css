@@ -4,7 +4,7 @@
 /* Font Family Inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/*    Global Reset */
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -105,7 +105,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-
   display: grid;
   justify-content: center;
   align-items: center;
@@ -147,78 +146,77 @@ section {
   font-size: 24px;
 }
 
-
 /* Meet Speakers Section CSS */
-.section-header{
-    margin-bottom: 56px;
+.speakers-header {
+  margin-bottom: 56px;
 }
 
-.section-title{
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    color: #000102;
+.speakers-title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  color: #000102;
 }
 
-.speakers .speakers-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+.speakers .speakers-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
 }
 
 .speakers-container .speaker-card {
-  border:1px solid #E5E7EB; 
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
 }
 
-.speaker-image{
-    display: block;
-    width: 100%;
-    border-radius: 12px 12px 0 0;
+.speaker-image {
+  display: block;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
 }
 
-.speaker-info{
-    padding: 25px 24px;
+.speaker-info {
+  padding: 25px 24px;
 }
 
-.speaker-info .speaker-category{
-    font-size: 12px;
-    font-weight: 600;
-    color: #2563EB;
+.speaker-info .speaker-category {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
 }
 
-.speaker-info .speaker-name{
-    padding: 8px 0;
-    font-size: 20px;
-    font-weight: 700;
-    color: #0D1B2A;
+.speaker-info .speaker-name {
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d1b2a;
 }
 
-.speaker-info .speaker-role{
-    font-size: 14px;
-    font-weight: 400;
-    color: #575757;
+.speaker-info .speaker-role {
+  font-size: 14px;
+  font-weight: 400;
+  color: #575757;
 }
 
 /* Secure Spot Section css */
-.pricing .pricing-container{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:24px;
+.pricing .pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
-.pricing-header{
-    margin-bottom: 48px;
+.section-header {
+  margin-bottom: 48px;
 }
 
-.pricing-title{
-    text-align: center;
-    font-size: 48px;
-    font-weight: 700;
-    color: #0D1B2A;
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #0d1b2a;
 }
 
-.pricing-description{
+.pricing-description {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -226,87 +224,296 @@ section {
   padding-top: 12px;
 }
 
-.pricing-card{
-    background-color: #F8F9FB;
-    border:1px solid #ebe5e6;
-    border-radius:12px;
-    padding:32px;
+.pricing-card {
+  background-color: #f8f9fb;
+  border: 1px solid #ebe5e6;
+  border-radius: 12px;
+  padding: 32px;
 }
 
-.plan-name{
+.plan-name {
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   color: #888888;
 }
 
-.plan-price{
+.plan-price {
   font-size: 44px;
   font-weight: 700;
-  color: #0D1B2A;
+  color: #0d1b2a;
   padding: 8px 0 4px 0;
 }
 
-.plan-duration{
+.plan-duration {
   font-size: 13px;
   font-weight: 400;
   text-transform: lowercase;
   color: #888888;
 }
 
-.plan-divider{
-    margin: 20px 0;
-    border: none;
-    border-top: 1px solid #E5E7EB;
+.plan-divider {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
 }
 
-.pricing-card-active{
-    background:#0D1B2A;
-    color:#fff;
+.pricing-card-active {
+  background: #0d1b2a;
+  color: #fff;
 }
 
-.feature-list{
-    display:grid;
-    gap:10px;
-    padding-left: 18px;
+.feature-list {
+  display: grid;
+  gap: 10px;
+  padding-left: 18px;
 }
 
-.pricing-card .btn{
+.pricing-card .btn {
   width: 100%;
   margin-top: 20px;
   padding: 12px 12px;
   font-size: 14px;
   font-weight: 600;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.btn-outline{
-  border: 1px solid #2563EB;
-  color: #2563EB;
+.btn-outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
   background-color: transparent;
 }
 
-.plan-name-active{
-  color: #93C5FD;
+.plan-name-active {
+  color: #93c5fd;
 }
-.plan-price-active{
-  color: #FFFFFF;
+.plan-price-active {
+  color: #ffffff;
 }
 
-.plan-duration-active{
+.plan-duration-active {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.plan-divider-active{
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+.plan-divider-active {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.btn-outline-dark{
-  border: 1px solid #0D1B2A;
-  color: #0D1B2A;
+.btn-outline-dark {
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
   background-color: transparent;
 }
 
+/* Official Learning & Hiring Partners CSS */
+.partners-description {
+  max-width: 650px;
+  margin: 12px auto 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #575757;
+}
 
+.partners-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 56px;
+}
 
+/* Card */
+.partner-card {
+  background: #f8f9fb;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 32px;
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.45s ease;
+}
+.partner-card:hover {
+  transform: translateY(-3px);
+  border-color: #2563eb;
+  box-shadow:
+    0 12px 30px rgba(13, 27, 42, 0.08),
+    0 4px 12px rgba(13, 27, 42, 0.05);
+}
+
+/* Top */
+.partner-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+/* Logo */
+.partner-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Badge */
+.partner-badge {
+  padding: 8px 14px;
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Title */
+.partner-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-bottom: 14px;
+}
+
+/* Description */
+.partner-description {
+  color: #575757;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+/* Button */
+.partner-card .btn {
+  width: 100%;
+}
+
+.btn-hiring {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+  transition:
+    color 0.45s ease,
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+/* Blue Fill Animation css start */
+.btn-hiring::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  transform: translateY(100%);
+  transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: -2;
+}
+
+/* Shine Effect */
+.btn-hiring::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 60%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  transform: skewX(-25deg);
+  transition: left 0.65s ease;
+  z-index: -1;
+}
+
+.btn-hiring:hover::before {
+  transform: translateY(0);
+}
+
+.btn-hiring:hover::after {
+  left: 130%;
+}
+
+.btn-hiring:hover {
+  color: #fff;
+  transform: translateY(-3px);
+  border-color: #2563eb;
+  box-shadow:
+    0 10px 24px rgba(37, 99, 235, 0.25),
+    0 4px 10px rgba(37, 99, 235, 0.15);
+}
+
+.btn-hiring:active {
+  transform: translateY(-1px);
+}
+/* Blue Fill Animation css end */
+
+/* call to action */
+.partners-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 60px 40px;
+  background: #0d1b2a;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.partners-cta h2 {
+  color: #ffffff;
+  font-size: 42px;
+  margin-bottom: 14px;
+}
+
+.partners-cta p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.partners-cta .button{
+    position: relative;
+    overflow: hidden;
+    padding: 16px 42px;
+    font-size: 17px;
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+.partners-cta .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 40%;
+    height: 100%;
+    background: rgba(255,255,255,.35);
+    transform: skewX(-25deg);
+    transition: left .7s ease;
+}
+
+.partners-cta .button:hover::before{
+    left: 130%;
+}
+
+.partners-cta .button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(37,99,235,.35);
+}
+
+.partners-cta .button:active{
+    transform: translateY(0);
+}
 
