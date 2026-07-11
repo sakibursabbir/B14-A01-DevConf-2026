@@ -42,25 +42,15 @@ section {
 
 .navbar-logo .logo {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 6px;
   text-decoration: none;
   font-family: "Arimo", sans-serif;
 }
 
 .navbar-logo .logo img {
-  display: block;
-}
-
-.logo-text {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -0.6px;
-  color: #0d1b2a;
-}
-
-.logo-text .logo-year {
+  width: 120px;
+  height: auto;
   display: block;
 }
 
@@ -267,6 +257,13 @@ section {
   display: grid;
   gap: 10px;
   padding-left: 18px;
+}
+
+.feature-list .feature-item::marker{
+  color: #2563EB;
+}
+.feature-list .feature-item-active::marker{
+  color: #60A5FA;
 }
 
 .pricing-card .btn {
@@ -532,28 +529,15 @@ section {
 
 .footer-logo {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
-  gap: 10px;
   text-decoration: none;
 }
 
 .footer-logo img {
-  width: 30px;
-  height: 30px;
-}
-
-.footer-logo-text {
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-.footer-logo-year {
+  width: 100px;
+  height: auto;
   display: block;
-  font-size: 14px;
-  font-weight: 600;
-  color: #ffffff;
 }
 
 .footer-social {
@@ -569,7 +553,7 @@ section {
 
 .footer-divider {
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .footer-bottom {
